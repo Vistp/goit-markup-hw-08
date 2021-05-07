@@ -4,7 +4,7 @@
   left: 50%;
   transform: translateX(-50%);
 
-  width: 480px;
+  max-width: 480px;
   min-height: 796px;
   padding: 48px 40px;
   background-color: $hero-title-color;

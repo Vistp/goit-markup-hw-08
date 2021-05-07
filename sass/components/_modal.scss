@@ -38,7 +38,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 450px;
+  min-width: 320px;
+  // width: 320px;
   min-height: 609px;
   padding: 40px 39px 40px 41px;
   background-color: $hero-title-color;
@@ -48,6 +49,10 @@
 
   transform: translate(-50%, -50%), scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
 
   @media screen and (min-width: 1200px) {
     width: 528px;
