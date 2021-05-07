@@ -1,0 +1,46 @@
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  min-width: 320px;
+
+  // background-color: aquamarine;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    color: $title-text-color;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+      font-size: 36px;
+      line-height: 1.17;
+    }
+  }
+  &--no-padding-bottom {
+    @media screen and (min-width: 1200px) {
+      padding-bottom: 0;
+    }
+  }
+
+  &--dark-bgcolor {
+    background: #f5f4fa;
+  }
+
+  &--desktop {
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+}
