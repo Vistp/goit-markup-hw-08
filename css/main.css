@@ -1436,7 +1436,9 @@ p {
           transform: translateX(-50%);
   max-width: 480px;
   min-height: 796px;
-  padding: 48px 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 40px;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
@@ -1549,7 +1551,8 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-width: 357px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .mobile-links__item + .mobile-links__item {

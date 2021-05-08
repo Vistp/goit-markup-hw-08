@@ -6,7 +6,10 @@
 
   max-width: 480px;
   min-height: 796px;
-  padding: 48px 40px;
+  // padding: 48px 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 40px;
   background-color: $hero-title-color;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
     0px 1px 3px rgba(0, 0, 0, 0.16);
@@ -109,7 +112,8 @@
 
 .mobile-links {
   display: flex;
-  min-width: 357px;
+  flex-wrap: wrap;
+  // min-width: 357px;
 
   &__item + &__item {
     margin-left: 10px;
