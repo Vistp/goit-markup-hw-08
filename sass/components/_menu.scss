@@ -78,6 +78,8 @@
 }
 
 .mobile-contacts__link {
+  display: block;
+  min-width: 297px;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.166;
@@ -107,6 +109,7 @@
 
 .mobile-links {
   display: flex;
+  min-width: 357px;
 
   &__item + &__item {
     margin-left: 10px;
