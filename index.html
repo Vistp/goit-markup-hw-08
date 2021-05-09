@@ -138,6 +138,7 @@
           <ul class="activities list">
             <li class="activities__item">
               <img
+                srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="Десктопные приложения"
                 width="370"
@@ -146,6 +147,7 @@
             </li>
             <li class="activities__item">
               <img
+                srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="Мобильные приложения"
                 width="370"
@@ -154,6 +156,7 @@
             </li>
             <li class="activities__item">
               <img
+                srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
                 src="./images/img3.jpg"
                 alt="Дизайнерские решения"
                 width="370"
@@ -175,7 +178,7 @@
                   media="(max-width: 767px)" />
                 <source srcset="./images/team/tablet/photo1-354.jpg 1x, ./images/team/tablet/photo1@2x-354.jpg 2x"
                   media="(max-width: 1199px)" />
-                <source srcset="./images/team/desktop/photo1-270.jpg 1x, ./images/team/desktop/photo1@2x-270.jpg 2x,"
+                <source srcset="./images/team/desktop/photo1-270.jpg 1x, ./images/team/desktop/photo1@2x-270.jpg 2x"
                   media="(min-width: 1200px)" />
                 <img src="./images/team/desktop/photo1-270.jpg" alt="Фото Игорь Демьяненко" />
               </picture>
@@ -220,7 +223,7 @@
                   media="(max-width: 767px)" />
                 <source srcset="./images/team/tablet/photo2-354.jpg 1x, ./images/team/tablet/photo2@2x-354.jpg 2x"
                   media="(max-width: 1199px)" />
-                <source srcset="./images/team/desktop/photo2-270.jpg 1x, ./images/team/desktop/photo2@2x-270.jpg 2x,"
+                <source srcset="./images/team/desktop/photo2-270.jpg 1x, ./images/team/desktop/photo2@2x-270.jpg 2x"
                   media="(min-width: 1200px)" />
                 <img src="./images/team/desktop/photo2-270.jpg" alt="Фото Ольга Репина" />
               </picture>
@@ -265,7 +268,7 @@
                   media="(max-width: 767px)" />
                 <source srcset="./images/team/tablet/photo3-354.jpg 1x, ./images/team/tablet/photo3@2x-354.jpg 2x"
                   media="(max-width: 1199px)" />
-                <source srcset="./images/team/desktop/photo3-270.jpg 1x, ./images/team/desktop/photo3@2x-270.jpg 2x,"
+                <source srcset="./images/team/desktop/photo3-270.jpg 1x, ./images/team/desktop/photo3@2x-270.jpg 2x"
                   media="(min-width: 1200px)" />
                 <img src="./images/team/desktop/photo3-270.jpg" alt="Фото Николай Тарасов" />
               </picture>
@@ -310,7 +313,7 @@
                   media="(max-width: 767px)" />
                 <source srcset="./images/team/tablet/photo4-354.jpg 1x, ./images/team/tablet/photo4@2x-354.jpg 2x"
                   media="(max-width: 1199px)" />
-                <source srcset="./images/team/desktop/photo4-270.jpg 1x, ./images/team/desktop/photo4@2x-270.jpg 2x,"
+                <source srcset="./images/team/desktop/photo4-270.jpg 1x, ./images/team/desktop/photo4@2x-270.jpg 2x"
                   media="(min-width: 1200px)" />
                 <img src="./images/team/desktop/photo4-270.jpg" alt="Фото Михаил Ермаков" />
               </picture>
@@ -466,9 +469,9 @@
     </footer>
 
     <!-- Мобильное меню -->
-<div class="backdrop backdrop--mobile is-hidden" modal-menu>
+<div class="backdrop backdrop--mobile is-hidden" data-menu>
   <div class="menu">
-    <button modal-menu-close class="menu-close">
+    <button data-menu-close class="menu-close">
       <svg class="menu-close__icon" width="40" height="40">
         <use href="./images/icons.svg#modal-close"></use>
       </svg>
